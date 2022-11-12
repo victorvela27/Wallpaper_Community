@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".FragmentosAdministrador.PerfilAdmin">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"
+            android:orientation="vertical">
+            
+            <TextView
+                android:text="@string/Perfil_Administrador"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/FOTOPERFILIMG"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/perfil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:text="@string/Mi_informacion"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"/>
+        
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+            <TextView
+                android:id="@+id/UDIPerfilTXT"
+                android:text="@string/UDIPerfilTXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/UDIPerfil"
+                    android:text="@string/UDIPerfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/NOMBRESPERFILTXT"
+                    android:text="@string/NOMBRESPERFILTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/NOMBRESPERFIL"
+                    android:text="@string/NOMBRESPERFIL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/APELLIDOSTXT"
+                    android:text="@string/APELLIDOSTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/APELLIDOS"
+                    android:text="@string/APELLIDOS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/CORREOTXT"
+                    android:text="@string/CORREOTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/CORREO"
+                    android:text="@string/CORREO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/PASSWORDTXT"
+                    android:text="@string/PASSWORDTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/PASSWORD"
+                    android:text="@string/PASSWORD"
+                    android:inputType="textPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <TextView
+                    android:id="@+id/EDADTXT"
+                    android:text="@string/EDADTXT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/EDAD"
+                    android:text="@string/EDAD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="15sp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/ACTUALIZARPASS"
+                android:text="@string/ACTUALIZARPASS"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:drawableStart="@drawable/edit_item"
+                android:layout_width="230dp"
+                android:padding="10dp"
+                android:background="#6882DA"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/ACTUALIZARDATOS"
+                android:text="@string/ACTUALIZARDATOS"
+                android:layout_marginTop="15dp"
+                android:textColor="#fff"
+                android:drawableStart="@drawable/edit_item"
+                android:layout_width="230dp"
+                android:padding="10dp"
+                android:background="#6882DA"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

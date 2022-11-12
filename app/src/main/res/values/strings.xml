@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">Wallpaper Community</string>
+    <string name="desarrollador">Desarrollado por: Equipo Venenosas</string>
+
+    <string name="navigation_draw_open">Open navigation drawer</string>
+    <string name="navigation_draw_close">Close navigation drawer</string>
+
+    <!--Menu ADMIN-->
+    <string name="InicioAdmin">Inicio</string>
+    <string name="PerfilAdmin">Perfil</string>
+    <string name="RegistrarAdmin">Registrar</string>
+    <string name="ListarAdmin">Lista de Administradores</string>
+    <string name="Salir">Cerrar Sesión</string>
+
+    <!--Menu Cliente-->
+    <string name="Opcionestxt">Opciones</string>
+    <string name="InicioCliente">Inicio</string>
+    <string name="MasOpcionestxt">Más Opciones</string>
+    <string name="AcercaDe">Acerca De</string>
+    <string name="Compartir">Compartir</string>
+    <string name="Maps">Ubícanos</string>
+    <string name="Login">Login</string>
+    <string name="Acceder">Acceder</string>
+
+    <!--RegistroAdmin-->
+    <string name="RegistroTXT">Registro de Administradores</string>
+    <string name="Correo">Correo Electronico</string>
+    <string name="Contraseña">Contraseña</string>
+    <string name="Nombres">Nombres Completos</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Edad">Edad</string>
+    <string name="FechadeRegistro">Fecha de Registro</string>
+    <string name="Registrar">Registrar</string>
+
+    <!--Login-->
+    <string name="LoginTXT">Login de administradores</string>
+    <string name="Ingresar">Ingresar</string>
+
+    <!--Categoria-->
+    <string name="FechaAdmin">--</string>
+    <string name="BienvenidoTXT">Bienvenido(a):</string>
+    <string name="NombreTXT">--</string>
+    <string name="EligueunacategoriaTXT">Elige una Categoria</string>
+    <string name="Peliculas">Peliculas</string>
+    <string name="Series">Series</string>
+    <string name="Musica">Música</string>
+    <string name="Videojuegos">Videojuegos</string>
+
+    <!--Menu Agregar-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
+    <!--Peliculas-->
+    <string name="NombreTXTPeliculas">Nombre de Imagen</string>
+    <string name="NombrePelicula">Escriba nombre aquí</string>
+    <string name="VistaPeliculas">0</string>
+    <string name="PublicarPelicula">Publicar</string>
+    <string name="NombreImagenPeliculas">--</string>
+    <string name="Visitas">--</string>
+    <!--Musica-->
+    <string name="NombreTXTMusica">Nombre de Imagen</string>
+    <string name="NombreMusica">Escriba nombre aquí</string>
+    <string name="VistaMusica">0</string>
+    <string name="PublicarMusica">Publicar</string>
+    <string name="NombreImagenMusica">--</string>
+    <string name="VisitasMusica">--</string>
+    <!--Series-->
+    <string name="NombreTXTSeries">Nombre de Imagen</string>
+    <string name="NombreSeries">Escriba nombre aquí</string>
+    <string name="VistaSeries">0</string>
+    <string name="PublicarSeries">Publicar</string>
+    <string name="NombreImagenSeries">--</string>
+    <string name="VisitasSeries">--</string>
+    <!--Videojuegos-->
+    <string name="NombreTXTVideojuegos">Nombre de Imagen</string>
+    <string name="NombreVideojuegos">Escriba nombre aquí</string>
+    <string name="VistaVideojuegos">0</string>
+    <string name="PublicarVideojuegos">Publicar</string>
+    <string name="NombreImagenVideojuegos">--</string>
+    <string name="VisitasVideojuegos">--</string>
+    <!--Ordenar-->
+    <string name="OrdenarTXT">Ordenar en:</string>
+    <string name="Dos_columnas">2 Columnas</string>
+    <string name="Tres_columnas">3 Columnas</string>
+
+    <!--Perfil-->
+    <string name="Perfil_Administrador">MI PERFIL</string>
+    <string name="Mi_informacion">MI INFORMACIÓN</string>
+    <string name="UDIPerfilTXT">UId:</string>
+    <string name="UDIPerfil">--</string>
+    <string name="NOMBRESPERFILTXT">Nombres: </string>
+    <string name="NOMBRESPERFIL">--</string>
+    <string name="APELLIDOSTXT">Apellidos: </string>
+    <string name="APELLIDOS">--</string>
+    <string name="CORREOTXT">Correo: </string>
+    <string name="CORREO">--</string>
+    <string name="PASSWORDTXT">Contraseñas: </string>
+    <string name="PASSWORD">--</string>
+    <string name="EDADTXT">Edad: </string>
+    <string name="EDAD">--</string>
+    <string name="ACTUALIZARPASS">Actualizar contraseña </string>
+    <string name="ACTUALIZARDATOS">Actualizar datos</string>
+
+    <!--Cambiar contraseña-->
+    <string name="MisCredencialesTXT">Mis credenciales</string>
+    <string name="PassActualTXT">Contraseña actual: </string>
+    <string name="PassActual">--</string>
+    <string name="ActualPassET">Contraseña actual</string>
+    <string name="NuevoPassET">Nueva contraseña</string>
+    <string name="CAMBIARPASSBTN">Actualizar contraseña</string>
+    <string name="IRINICIOBTN">Ir a Inicio</string>
+    <string name="NOTATXT">Nota: Si cambias la contraseña, se cerrará sesión automaticamente</string>
+
+    <!--AdministradorItem-->
+    <string name="NombresADMIN">Nombres</string>
+    <string name="CorreoADMIN">Correo electronico</string>
+    <!--Buscar Menu-->
+    <string name="buscar_administrador">Buscar</string>
+    <!--Detalle Admin-->
+    <string name="DetalleTXT">Detalle del Perfil</string>
+    <string name="UidDetalleAdmin">UID</string>
+    <string name="NombresDetalleAdmin">Nombres</string>
+    <string name="ApellidosDetalleAdmin">Apellidos</string>
+    <string name="CorreoDetalleAdmin">Correo</string>
+    <string name="EdadDetalleAdmin">Edad</string>
+
+
+    <!--Categorias Cliente-->
+    <string name="CategoriasTXT">Categorias</string>
+    <string name="NombreCategoriaD">--</string>
+    <string name="MasCategoriasTXT">Más categorias</string>
+    <string name="NombreCategoriaF">--</string>
+    <string name="InforTXT">Disfruta nuestra App</string>
+
+    <!--Detalle Cliente-->
+    <string name="NombreImagenTXT">Nombre de Imagen:</string>
+    <string name="NombreImagenDetalle">--</string>
+    <string name="VisualizacionTXT">Visualizaciones</string>
+    <string name="VistaDetalle">--</string>
+
+    <!--Imagen Categoria Firebase-->
+    <string name="NombreImg_Cat_Elegida">--</string>
+    <string name="Vistas_Img_Cat_Elegida">--</string>
+
+    <string name="TituloinformativoTXT">--</string>
+
+    <string name="Fecha">--</string>
+
+    <!--Acerca De-->
+    <string name="AcercaDeApp">Acerca De</string>
+    <string name="InfoDesarrollador">Desarrollado por: Las Venenosas</string>
+    <string name="InfoCorreo">Correo: vvela728@gmail.com</string>
+    <string name="InfoVersion">Versión: 1.0</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Facebook2">Facebook de Respaldo</string>
+    <string name="Instagram">Instagram</string>
+    <string name="Twitter">Twitter</string>
+    <string name="WhatsApp">WhatsApp</string>
+    <string name="Aviso">Aviso de Privacidad Vigente</string>
+    <string name="Nuestras_Redes">Nuestras Redes</string>
+
+    <!--Compartir-->
+    <string name="AyudanosTXT">Ayudanos a crecer compartiendo nuestra app que es gratuita</string>
+    <string name="BotonCompartir">Compartir App</string>
+
+    <!--Solo Admin-->
+    <string name="SoloAdminTXT">Solo para administradores</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".FragmentosClientes.InicioCliente">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+
+
+      <androidx.appcompat.widget.LinearLayoutCompat
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+          <androidx.appcompat.widget.LinearLayoutCompat
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:layout_marginTop="8dp">
+
+              <androidx.appcompat.widget.AppCompatImageView
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:src="@drawable/calendario_item"/>
+              <TextView
+                  android:layout_marginStart="5dp"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/Fecha"
+                  android:textSize="18sp"
+                  android:textStyle="bold"
+                  android:id="@+id/Fecha"/>
+
+
+
+          </androidx.appcompat.widget.LinearLayoutCompat>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:layout_marginTop="10dp"
+              android:textColor="#000"
+              android:gravity="center"
+              android:text="@string/CategoriasTXT"
+              android:textSize="20sp"/>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerviewCategoriaD"
+              android:layout_width="match_parent"
+              android:layout_height="250dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:layout_marginTop="10dp"
+              android:textColor="#000"
+              android:gravity="center"
+              android:text="@string/MasCategoriasTXT"
+              android:textSize="20sp"/>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerviewCategoriaF"
+              android:layout_width="match_parent"
+              android:layout_height="250dp"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="5dp"
+              android:layout_marginTop="10dp"
+              android:textColor="#000"
+              android:gravity="center"
+              android:text="@string/InforTXT"
+              android:textSize="20sp"/>
+
+          <androidx.recyclerview.widget.RecyclerView
+              android:id="@+id/recyclerviewInfo"
+              android:layout_marginTop="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="250dp"/>
+
+      </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+  </RelativeLayout>
+
+</ScrollView>

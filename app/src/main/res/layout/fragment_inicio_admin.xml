@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".FragmentosAdministrador.InicioAdmin">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/calendario_item"/>
+            <TextView
+                android:id="@+id/FechaAdmin"
+                android:text="@string/FechaAdmin"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            
+            
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginStart="5dp"
+                android:layout_gravity="center"
+                android:src="@drawable/bienvenido"/>
+
+            <TextView
+                android:text="@string/BienvenidoTXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NombreTXT"
+                android:id="@+id/NombreTXT"
+                android:layout_marginTop="5dp"
+/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:text="@string/EligueunacategoriaTXT"
+            android:textColor="#086a87"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_peliculas"/>
+                <Button
+                    android:id="@+id/Peliculas"
+                    android:text="@string/Peliculas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#04B4AE"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_series"/>
+                <Button
+                    android:id="@+id/Series"
+                    android:text="@string/Series"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#04B4AE"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginTop="10dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_musica"/>
+                <Button
+                    android:id="@+id/Musica"
+                    android:text="@string/Musica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#04B4AE"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="80dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ico_videojuegos"/>
+                <Button
+                    android:id="@+id/Videojuegos"
+                    android:text="@string/Videojuegos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#04B4AE"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    />
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
